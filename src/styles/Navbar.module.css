@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  background-color: rgb(12, 12, 12);
+  align-items: center;
+}
+.brand {
+  width: 25vw;
+  height: 10vh;
+}

@@ -1,0 +1,89 @@
+.logout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logout button {
+  border: none;
+  outline: none;
+  padding: 0.5rem 1.5rem;
+  color: snow;
+  background-color: #360082;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+  font-family: "Oxanium", display;
+}
+
+.activate button {
+  border: none;
+  outline: none;
+  padding: 0.5rem 1.5rem;
+  color: #360082;
+  background-color: snow;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+  font-family: "Oxanium", display;
+}
+
+.login {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(240, 240, 240, 0.7);
+  z-index: 2;
+  gap: 1rem;
+}
+
+.login fieldset {
+  width: 50%;
+  color: snow;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-shadow: 0 0 0.25rem 0 rgba(240, 240, 240, 0.7);
+}
+.login label {
+  text-transform: uppercase;
+  align-self: center;
+  padding: 1rem;
+  background-color: #360082;
+  border-radius: 2rem 0 0 2rem;
+  font-weight: 400;
+  font-family: "Oxanium", display;
+}
+.login input {
+  flex: 1;
+  outline: none;
+  border-radius: 0 2rem 2rem 0;
+  padding: 0 1rem;
+  font-family: "Golos Text", sans-serif;
+}
+.login button[type="submit"] {
+  background-color: #360082;
+  color: snow;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 1.5rem 2.5rem;
+  font-weight: 700;
+  font-family: "Oxanium", display;
+}
+
+.login button[type="button"] {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: #e02b20;
+  color: snow;
+  text-transform: uppercase;
+  padding: 0.5rem 2.5rem;
+  font-weight: 700;
+  font-family: "Oxanium", display;
+}
