@@ -1,7 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
+import Navbar from "./components/Navbar";
+import Posts from "./components/Posts";
+import UserContext from "./context/User";
+import Admin from "./components/Admin";
 
 const App = function () {
-  return <div>App</div>;
+  const { user } = useContext(UserContext);
+  return (
+    <>
+      <Navbar />
+      {!user || user.roll != "admin" ? <Posts /> : <Admin />}
+    </>
+  );
 };
 
 export default App;

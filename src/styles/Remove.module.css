@@ -1,0 +1,14 @@
+.remove {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.remove button {
+  background-color: #e02b20;
+  color: snow;
+  text-transform: uppercase;
+  padding: 0.5rem 2.5rem;
+  font-weight: 700;
+  font-family: "Oxanium", display;
+}
